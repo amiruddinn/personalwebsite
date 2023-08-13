@@ -91,7 +91,6 @@ nav ul li a:hover::after{
     font-weight: 500;
 }
 
-/* ... (your existing CSS) ... */
 
 
 
@@ -194,12 +193,11 @@ form .btn2{
 
 }
 
-/* ... (your existing CSS) ... */
 
 /* Smaller Image Size */
 .about-image {
-    max-width: 100%; /* This will make the image adjust its width to fit its container */
-    height: auto;   /* This will maintain the image's aspect ratio */
+    max-width: 100%; 
+    height: auto;   
 }
 
 
@@ -254,7 +252,7 @@ form .btn2{
         width: 0;
     }
 
-    /* Additional styles for the mobile version */
+    
     .container {
     }
 
@@ -269,28 +267,28 @@ form .btn2{
     .container a {
         padding: 5px 0;
         margin: 0px 20px;
-        font-size: 14px; /* Adjust the font size as needed */
+        font-size: 14px; 
     }
 
     .text-box p {
-        font-size: 24px; /* Adjust the font size as needed */
+        font-size: 24px; 
         height: 0px;
         padding: 10px;
     }
 
     .text-box h1 {
-        font-size: 55px; /* Adjust the font size as needed */
+        font-size: 55px; 
         height: 130px;
         padding-left: 15px;
     }
 
     .text-box h3 {
-        font-size: 15px; /* Adjust the font size as needed */
+        font-size: 15px; 
         padding: 5px;
     }
 
     .text-box span {
-        font-size: 13px; /* Adjust the font size as needed */
+        font-size: 13px; 
         color: #000;
         padding: 5px;
     }
@@ -301,16 +299,12 @@ form .btn2{
     
 
 
-    
-
-
-/* ... (your existing CSS) ... */
 
 
 
 
 .contact-right form {
-    width: 100%; /* Set the form width to 100% */
+    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -318,7 +312,7 @@ form .btn2{
 
 form input,
 form textarea {
-    width: 100%; /* Set input width to 100% to make it touch end-to-end */
+    width: 100%; 
     border: 0;
     outline: none;
     background: #262626;
@@ -342,33 +336,30 @@ form textarea {
 @media screen and (max-width: 768px) {
     .social-menu ul {
         left: auto;
-        right: 10px; /* Adjust the distance from the right side for smaller screens */
+        right: 10px; 
         transform: translateY(-50%);
-        align-items: center; /* Vertically align the icons */
+        align-items: center; 
     }
 
     .social-menu ul li {
-        margin: 5px; /* Reduce spacing between icons for smaller screens */
+        margin: 5px; 
     }
 
     .social-menu ul li .fa {
-        font-size: 24px; /* Reduce icon size for smaller screens */
+        font-size: 24px; 
     }
 
     .social-menu ul li a {
-        font-size: 20px; /* Reduce font size for smaller screens */
-        line-height: 50px; /* Adjust line-height for smaller screens */
-        width: 50px; /* Adjust icon width for smaller screens */
-        height: 50px; /* Adjust icon height for smaller screens */
+        font-size: 20px; 
+        line-height: 50px; 
+        width: 50px; 
+        height: 50px; 
     }
 
     .social-menu ul li a:hover {
-        transform: translate(0, -5px); /* Adjust hover translation for smaller screens */
+        transform: translate(0, -5px); 
     }
 }
-
-
-
 
 
 
